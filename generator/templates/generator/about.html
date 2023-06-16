@@ -1,0 +1,30 @@
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+  crossorigin="anonymous"
+/>
+<section
+  class="container text-center align-items-center d-flex flex-column gap-3 mt-3"
+>
+  <h1>The importance of creating a password:</h1>
+  <article>
+    <p>
+      Strong passwords are important because they help prevent unauthorized
+      access to personal information and accounts. This is especially important
+      for accounts containing sensitive information, such as financial email and
+      social media accounts.
+    </p>
+    <img
+      src="https://cdn.comparitech.com/wp-content/uploads/2020/08/password-reuse.jpg"
+      alt="password generator gif"
+      style="width: 60%"
+    />
+  </article>
+
+  <button class="btn btn-primary mt-3" style="width: 50%">
+    <a href="{% url 'generator' %}" style="text-decoration: none; color: white"
+      >Generate a fully new password</a
+    >
+  </button>
+</section>
